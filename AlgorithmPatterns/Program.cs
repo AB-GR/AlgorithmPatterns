@@ -19,6 +19,9 @@
 			var result6 = longKDifferent.Run("araaci", 1);
 			var result7 = longKDifferent.Run("cbbebi", 3);
 			
+			var fruits = new FruitsIntoBaskets();
+			var result8 = fruits.Run(new[] { 'A', 'B', 'C', 'B', 'B', 'C' });
+
 			Console.ReadLine();
 		}
 	}

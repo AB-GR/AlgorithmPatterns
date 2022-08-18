@@ -23,7 +23,8 @@
 					i++;
 				}
 
-				maxLength = Math.Max(maxLength, j - i + 1);
+				if(dict.Count == k)
+					maxLength = Math.Max(maxLength, j - i + 1);
 			}
 
 			return maxLength;
