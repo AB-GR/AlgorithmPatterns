@@ -14,6 +14,11 @@
 			var sm = new SmallestSubArrayWithGreaterSum();
 			var result4 = sm.Run(new int[] { 3, 4, 1, 1, 6 }, 7);
 
+			var longKDifferent = new LongestSubstringWithKDifferentCharacters();
+			var result5 = longKDifferent.Run("araaci", 2);
+			var result6 = longKDifferent.Run("araaci", 1);
+			var result7 = longKDifferent.Run("cbbebi", 3);
+			
 			Console.ReadLine();
 		}
 	}
