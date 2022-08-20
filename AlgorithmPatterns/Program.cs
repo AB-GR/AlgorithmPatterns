@@ -22,6 +22,9 @@
 			var fruits = new FruitsIntoBaskets();
 			var result8 = fruits.Run(new[] { 'A', 'B', 'C', 'B', 'B', 'C' });
 
+			var longestSubstr = new LongestSubsrtingWithDistinctCharacters();
+			var result9 = longestSubstr.Run("aabccbb");
+
 			Console.ReadLine();
 		}
 	}
