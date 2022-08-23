@@ -25,6 +25,9 @@
 			var longestSubstr = new LongestSubsrtingWithDistinctCharacters();
 			var result9 = longestSubstr.Run("aabccbb");
 
+			var longestSubstrWithReplacement = new LongestSubstringSameLettersAfterReplacement();
+			var result10 = longestSubstrWithReplacement.Run("aabccbb", 2);
+
 			Console.ReadLine();
 		}
 	}
