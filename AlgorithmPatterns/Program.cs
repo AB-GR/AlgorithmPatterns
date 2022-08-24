@@ -1,4 +1,7 @@
-﻿namespace AlgorithmPatterns
+﻿using AlgorithmPatterns.SlidingWindow;
+using AlgorithmPatterns.TwoPointers;
+
+namespace AlgorithmPatterns
 {
 	internal class Program
 	{
@@ -27,6 +30,12 @@
 
 			var longestSubstrWithReplacement = new LongestSubstringSameLettersAfterReplacement();
 			var result10 = longestSubstrWithReplacement.Run("aabccbb", 2);
+
+			var pairWithTargetSum = new PairWithTargetSum();
+			var result11 = pairWithTargetSum.Run(new[] { 1, 2, 3, 4, 6 }, 6);
+
+			var removeDuplicates = new RemoveDuplicates();
+			var result12 = removeDuplicates.Run(new[] { 2, 3, 3, 3, 6, 9, 9 });
 
 			Console.ReadLine();
 		}
