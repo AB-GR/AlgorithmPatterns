@@ -1,11 +1,10 @@
-﻿namespace AlgorithmPatterns
+﻿namespace AlgorithmPatterns.SlidingWindow
 {
-	public class LongestSubstringSameLettersAfterReplacement
+	public class LongestSubsrtingWithDistinctCharacters
 	{
-		public int Run(string s, int k)
+		public int Run(string s)
 		{
 			var maxLen = 0;
-			var maxCharRepeatCount = 0;
 			var i = 0;
 			var dict = new Dictionary<char, int>();
 			for (int j = 0; j < s.Length; j++)
@@ -15,9 +14,7 @@
 				else
 					dict.Add(s[j], 1);
 
-				maxCharRepeatCount = Math.Max(maxCharRepeatCount, dict[s[j]]);
-
-				while (j - i + 1 - maxCharRepeatCount > k)
+				while (dict.Values.Sum() > dict.Count)
 				{
 					dict[s[i]]--;
 					if (dict[s[i]] == 0)

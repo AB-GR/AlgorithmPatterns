@@ -1,4 +1,4 @@
-﻿namespace AlgorithmPatterns
+﻿namespace AlgorithmPatterns.SlidingWindow
 {
 	public class AverageOfSubarrayOfSizeK
 	{
@@ -11,7 +11,7 @@
 			{
 				sum += arr[j];
 
-				if(j >= k - 1)
+				if (j >= k - 1)
 				{
 					result[i] = sum / k;
 					sum -= arr[i];

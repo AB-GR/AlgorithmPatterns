@@ -1,4 +1,4 @@
-﻿namespace AlgorithmPatterns
+﻿namespace AlgorithmPatterns.SlidingWindow
 {
 	public class MaximumSumSubarrayOfSizeK
 	{
