@@ -37,6 +37,12 @@ namespace AlgorithmPatterns
 			var removeDuplicates = new RemoveDuplicates();
 			var result12 = removeDuplicates.Run(new[] { 2, 3, 3, 3, 6, 9, 9 });
 
+			var squaringASortedArray = new SquaringASortedArray();
+			var result13 = squaringASortedArray.Run(new[] { -3, -1, 0, 1, 2 });
+
+			var tripletsSumToZero = new TripletsSumToZero();
+			var result14 = tripletsSumToZero.Run(new[] { -3, 0, 1, 2, -1, 1, -2 });
+
 			Console.ReadLine();
 		}
 	}
