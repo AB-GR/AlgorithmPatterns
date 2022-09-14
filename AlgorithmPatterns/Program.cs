@@ -1,4 +1,5 @@
-﻿using AlgorithmPatterns.SlidingWindow;
+﻿using AlgorithmPatterns.HackerRank;
+using AlgorithmPatterns.SlidingWindow;
 using AlgorithmPatterns.TwoPointers;
 
 namespace AlgorithmPatterns
@@ -42,6 +43,9 @@ namespace AlgorithmPatterns
 
 			var tripletsSumToZero = new TripletsSumToZero();
 			var result14 = tripletsSumToZero.Run(new[] { -3, 0, 1, 2, -1, 1, -2 });
+
+			var commonChildDp = new CommonChildDP();
+			var result15 = commonChildDp.Run("HARRY", "SALLY");
 
 			Console.ReadLine();
 		}
