@@ -47,6 +47,9 @@ namespace AlgorithmPatterns
 			var commonChildDp = new CommonChildDP();
 			var result15 = commonChildDp.Run("HARRY", "SALLY");
 
+			var tripletsWithSmallerSum = new TripletsWithSmallerSum();
+			var result16 = tripletsWithSmallerSum.Run(new int[] { -1, 0, 2, 3 }, 3);
+
 			Console.ReadLine();
 		}
 	}
