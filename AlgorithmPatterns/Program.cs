@@ -50,6 +50,9 @@ namespace AlgorithmPatterns
 			var tripletsWithSmallerSum = new TripletsWithSmallerSum();
 			var result16 = tripletsWithSmallerSum.Run(new int[] { -1, 0, 2, 3 }, 3);
 
+			var s = new SubarraysWithProductLessThanTarget();
+			var result17 = s.Run(new int[] { 8, 2, 6, 5 }, 50);
+
 			Console.ReadLine();
 		}
 	}
