@@ -56,6 +56,15 @@ namespace AlgorithmPatterns
 			var s = new SubarraysWithProductLessThanTarget();
 			var result18 = s.Run(new int[] { 8, 2, 6, 5 }, 50);
 
+			var c = new Comparator();
+			c.Run(new List<Player> {
+				new Player{ Name = "amy", Score = 100 },
+				new Player{ Name = "david", Score = 100 },
+				new Player{ Name = "heraldo", Score = 50 },
+				new Player{ Name = "aakansha", Score = 75 },
+				new Player{ Name = "aakansha", Score = 150 }
+			});
+
 			Console.ReadLine();
 		}
 	}
