@@ -65,6 +65,9 @@ namespace AlgorithmPatterns
 				new Player{ Name = "aakansha", Score = 150 }
 			});
 
+			var dutch = new DutchNationalFlag();
+			var result19 = dutch.Run(new int[] { 2, 2, 0, 1, 2, 0 });
+
 			Console.ReadLine();
 		}
 	}
