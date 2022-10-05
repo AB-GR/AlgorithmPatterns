@@ -68,6 +68,9 @@ namespace AlgorithmPatterns
 			var dutch = new DutchNationalFlag();
 			var result19 = dutch.Run(new int[] { 2, 2, 0, 1, 2, 0 });
 
+			var longest1Subarray = new LongestSubarrayWithOnesAfterReplacement();
+			var result20 = longest1Subarray.Run(new int[] { 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1 }, 2);
+
 			Console.ReadLine();
 		}
 	}
